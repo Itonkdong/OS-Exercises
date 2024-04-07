@@ -33,7 +33,6 @@ findAllTextFiles()
             newName="$destination/226009_${totalEchoCount}${z}.txt"
             cp "$file" "$newName"
         else
-#            newName="$destination/226009_$totalEchoCount.txt"
             cp "$file" "$newName"
         fi
     fi
